@@ -8,7 +8,11 @@ export default  {
      "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+        roboto: ['"Roboto Slab"', 'serif']
+      }
+    },
   },
   plugins: [
       flowbitePlugin
