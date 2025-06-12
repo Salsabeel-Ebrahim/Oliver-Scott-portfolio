@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 #root{
-    padding: 0 !important; }
+    padding: 0 !important; 
+  max-width: none !important;
+  }
 body{font-family: "Roboto Slab", serif;}
 nav , footer , .after-footer , .social-icons i , .copy-right{
   background-color: rgb(81 61 47);
